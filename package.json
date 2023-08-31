@@ -1,0 +1,16 @@
+{
+  "name": "blog-share",
+  "version": "1.0.0",
+  "description": "blog sharing web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "react"
+  ],
+  "author": "addis_ambaye",
+  "license": "ISC"
+}
