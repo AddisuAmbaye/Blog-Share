@@ -1,16 +1,72 @@
 {
-  "name": "blog-share",
+  "name": "blog_share",
   "version": "1.0.0",
-  "description": "blog sharing web app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "frontend-start": "react-scripts start",
+    "frontend-build": "react-scripts build",
+    "frontend-test": "react-scripts test",
+    "frontend-eject": "react-scripts eject"
   },
-  "keywords": [
-    "express",
-    "node",
-    "react"
-  ],
-  "author": "addis_ambaye",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.36.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^6.9.1",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-loading": "^2.0.3",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
+    "sweetalert2": "^11.7.5",
+    "web-vitals": "^2.1.4",
+    "tailwindcss": "^3.3.2"
+  },
+  "engines": {
+    "node": "v16.20.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AddisuAmbaye/Blog-Share.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AddisuAmbaye/Blog-Share/issues"
+  },
+  "homepage": "https://github.com/AddisuAmbaye/Blog-Share#readme",
+  "description": ""
 }
